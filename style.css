@@ -14,11 +14,12 @@ body {
 nav {
 	display: flex;
 	justify-content: space-between;
+	color: #fff;
 }
 
 .nav-links {
 	display: flex;
-	
+	color: #fff;
 }
 
 .nav-links li {
@@ -27,8 +28,9 @@ nav {
 	text-decoration: none;
 	margin:10px;
 	font-weight: 600;
+	color: #fff;
 }
-a:-webkit-any-link {
+a {
     color: #fff;
     cursor: pointer;
     text-decoration: none;
@@ -53,7 +55,8 @@ a:-webkit-any-link {
 }
 
 .homepage button{
-	border: none;
+	border: solid 2px;
+	border-radius: 8px;
 	padding: none;
 	background: transparent;
 	color: #A32CC4;
@@ -114,7 +117,8 @@ main h1 {
 	
 }
 .portfoliobtn button{
-	border: none;
+	border: solid 2px;
+	border-radius: 8px;
 	padding: none;
 	background: transparent;
 	color: #A32CC4;
@@ -126,6 +130,7 @@ main h1 {
 .portfoliobtn button:hover {
 	border: 2px solid #A32CC4;
 	cursor: pointer;
+	color: #A32CC4;
 }
 
 
@@ -139,7 +144,8 @@ main h1 {
 }
 
 .contact button{
-	border: none;
+	border: solid 2px;
+	border-radius: 8px;
 	padding: none;
 	background: transparent;
 	color: #A32CC4;
@@ -153,3 +159,47 @@ main h1 {
 	border: 2px solid #A32CC4;
 	cursor: pointer;
 }
+
+.btncolor{
+	color: #A32CC4;
+}
+
+.contactform{
+	display: block;
+	
+}
+.contactform form {
+	background: transparent;
+}
+
+label { display:block }
+
+.contactform label { 
+	text-align: center;
+	padding: 5px;
+}
+
+.contactform input{
+	width: 100%;
+	background: transparent;
+	
+}
+
+
+.contactform textarea {
+	width: 100%;
+	background: transparent;
+}
+.contactform button{
+	border: solid 2px;
+	border-radius: 8px;
+	padding: none;
+	background: transparent;
+	color: #A32CC4;
+	font-size: 24px;
+	font-weight: 500;
+	height:50px;
+	margin-bottom: 100px;
+	margin-left: 45%;
+}
+

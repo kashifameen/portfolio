@@ -6,13 +6,15 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 </head>
 <body>
 	<nav>
 		<div class = "nav-links">
 			<li><a href="#home">Home</a></li>
 			<li><a href="#learnmore">About</a></li>
-			<li><a href="#portfolio"><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
 			<li><a href="#contact">Contact Me</a></li>
 		</div>
 	</nav>
@@ -24,14 +26,14 @@
 </h3>
 		<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nulla arcu, varius eu dui semper, suscipit pretium libero. Phasellus et lectus est. Integer ligula neque.
 </h3>
-	<button id ><a href="#learnmore">Learn More &#187;</button>
+	<button><a class = "btncolor" href="#learnmore">Learn More &#187;</a></button>
 
 	</div>
 	<div>
 	<img src = "https://images.pexels.com/photos/5483070/pexels-photo-5483070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"/>
 	</div>
 </div>
-	<main id = "learnmore">
+	<section id = "learnmore">
 	<div class = "mainpara">
 		<h1>About me</h1>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus velit quis ligula scelerisque, nec mollis ex posuere. Nullam non magna at nunc tempor aliquam. Maecenas fringilla, diam sed sagittis vulputate, erat leo maximus ex, a pharetra mi mi sed lacus. Morbi ultrices eleifend purus.My skills are detailed below </p>
@@ -39,6 +41,9 @@
 	<div class = "skills">
 		<div class="html">
 			<h3>HTML</h3>
+			<i class="fab fa-html5"></i>
+
+			
 			<p>Building websites using HTML</p>
 			<h4>Things I enjoy making:</h4>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
@@ -71,11 +76,11 @@
 	</div>
 	
 	<div class = "portfoliobtn">
-		<button><a href = "#portfolio">View my portfolio</button>
+		<button><a class = "btncolor" href = "#portfolio">View my portfolio</a></button>
 	</div>
 	
-	</main>
-	<main id = "portfolio">
+	</section>
+	<section id = "portfolio">
 		<div class = "container">
 			<div>
 				<h4>Project one</h4>
@@ -98,9 +103,30 @@
 		</div>
 		<div class="contact">
 			<button>Like what you see? Click here to contact me</button>
-	</main>
+		</div>
+	</section>
+	<section>
+		<div class = "contactform">
+		
+			    <form action="action_page.php">
+
+			      <label for="fname">First Name</label>
+			      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+			      <label for="lname">Last Name</label>
+			      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+			    
+
+			      <label for="subject">Subject</label>
+			      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+			      <button>Submit</button>
+
+			    </form>
+				
 	
-	
+		</div>
 </body>
 
 
