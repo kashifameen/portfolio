@@ -55,7 +55,7 @@ a {
 }
 
 .homepage button{
-	border: solid 2px;
+	border: 2px solid #A32CC4;
 	border-radius: 8px;
 	padding: none;
 	background: transparent;
@@ -66,9 +66,10 @@ a {
 	
 }
 .homepage button:hover{
-	border: 2px solid #A32CC4;
+	transform:scale(1.2);
 	margin-top:110px;
 	cursor: pointer;
+	margin-left: 25px;
 }
 
 div img {
@@ -96,9 +97,21 @@ main h1 {
 	text-align: center;
 	margin-bottom: 50px;
 }
+
+.skills .html img{
+	margin: 0;
+	height: 25%;
+	width: 40%;
+}
 .skills .css {
     border-left: solid 1px;
     padding-left: 8px;
+}
+.skills .css img{
+	margin: 0;
+	height: 25%;
+	width: 40%;
+	margin-left: 24px;
 }
 
 .skills h4{
@@ -128,19 +141,34 @@ main h1 {
 	margin-bottom: 100px;
 }
 .portfoliobtn button:hover {
-	border: 2px solid #A32CC4;
 	cursor: pointer;
 	color: #A32CC4;
+	transform: scale(1.2)
 }
-
-
+.portfoliosite{
+	max-height: 500px;
+	max-width: 350px;
+	margin-left: 10px;
+}
+.portfoliosite:hover{
+	transform: scale(1.5)
+}
  .container {
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 60% 40%;
 }
-
+.container div {
+	border-bottom: 0.5px solid #fff;
+}
+.container h4{
+	color: #fff;
+	font-size:20px;
+	text-decoration: underline;
+}
 .contact {
 	text-align: center;
+	margin-top: 50px;
 }
 
 .contact button{
@@ -153,17 +181,23 @@ main h1 {
 	font-weight: 500;
 	height:50px;
 	margin-bottom: 100px;
+	margin-top:65px;
 }
 
 .contact button:hover{
-	border: 2px solid #A32CC4;
+	color: #A32CC4;
 	cursor: pointer;
+	transform: scale(1.2);
 }
 
 .btncolor{
-	color: #A32CC4;
+	color: #fff;
 }
 
+.contact {
+	text-align: center;
+	font-size: 45px;
+}
 .contactform{
 	display: block;
 	
@@ -191,11 +225,11 @@ label { display:block }
 	background: transparent;
 }
 .contactform button{
-	border: solid 2px;
+	border: solid 2px #A32CC4;
 	border-radius: 8px;
 	padding: none;
 	background: transparent;
-	color: #A32CC4;
+	color: #fff;
 	font-size: 24px;
 	font-weight: 500;
 	height:50px;
@@ -203,3 +237,44 @@ label { display:block }
 	margin-left: 45%;
 }
 
+.contactform button:hover{
+	transform:scale(1.2);
+	margin-top: 10px;
+	
+}
+
+footer {
+	padding-top: 50px;
+	
+}
+footer img{
+	height: 40px;
+	width: 40px;
+	padding: 10 10;
+	
+}
+.facebook:hover{
+	border: 1px solid #fff;
+	border-radius: 50%;
+	transform: scale(1.2);
+	
+}
+
+.twitter:hover{
+	border: 1px solid #fff;
+	transform: scale(1.2);
+
+}
+
+.linkedin:hover{
+	border: 1px solid #fff;
+	border-radius: 4px;
+	transform: scale(1.2);
+	
+}
+
+.instagram:hover{
+	border: 1px solid #fff;
+	border-radius: 8px;
+	transform: scale(1.4);
+}
