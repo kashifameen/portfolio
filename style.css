@@ -1,6 +1,7 @@
 * {
 	box-sizing: border-box;
 }
+
 body {
 	margin: 0;
 	background: #000000;
@@ -54,10 +55,12 @@ a:hover{
 	grid-template-columns: 50% 50%;
 	height: 900px;
 	
+	
 }
 
 .homepage h1{
 	font-size: 42px;
+	
 }
 
 .homepage button{
@@ -165,6 +168,7 @@ a:hover{
 	grid-template-rows: 1fr 1fr 1fr 1fr;
 	grid-template-columns: 60% 40%;
 	padding-top: 25px;
+	padding-left:5px;
 }
 .container div {
 	border-bottom: 0.5px solid #fff;
@@ -262,8 +266,8 @@ label { display:block }
 
 .contactform button:hover{
 	transform:scale(1.2);
-	margin-top: 10px;
 	color:#A32CC4;
+	cursor: pointer;
 }
 
 footer {
@@ -323,6 +327,9 @@ footer img{
 	.homepage{
 		grid-template-columns: 1fr;
 	}
+	#learnmore{
+		height: auto;
+	}
 	.firstimage {
 		display: none;
 	}
@@ -335,9 +342,14 @@ footer img{
 	padding-left: 20px;
 	text-align: center;
 	margin-bottom: 50px;
+	
+	}
+	.skills .html{
+		padding-bottom: 20px;
 	}
 	.skills .css{
 		border-left: none;
+		padding-bottom: 20px;
 	}
 	.container{
 			grid-template-rows: 1fr 1fr 1fr 1fr ;
