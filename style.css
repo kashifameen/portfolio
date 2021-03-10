@@ -124,17 +124,16 @@ main h1 {
 }
 
 .portfoliobtn{
-	margin-left: 42%;
-	margin-right: 50%;
-	display: inline;
+   justify-content: center;
+    display: flex;
 	
 }
 .portfoliobtn button{
-	border: solid 2px;
+	border: solid 2px #A32CC4;
 	border-radius: 8px;
 	padding: none;
 	background: transparent;
-	color: #A32CC4;
+	color: #fff;
 	font-size: 24px;
 	font-weight: 500;
 	height:50px;
@@ -142,7 +141,6 @@ main h1 {
 }
 .portfoliobtn button:hover {
 	cursor: pointer;
-	color: #A32CC4;
 	transform: scale(1.2)
 	
 }
@@ -171,14 +169,16 @@ main h1 {
 .contact {
 	text-align: center;
 	margin-top: 50px;
+	display: flex;
+	justify-content: center;
 }
 
 .contact button{
-	border: solid 2px;
+	border: solid 2px #A32CC4;
 	border-radius: 8px;
 	padding: none;
 	background: transparent;
-	color: #A32CC4;
+	color: #fff;
 	font-size: 24px;
 	font-weight: 500;
 	height:50px;
@@ -187,7 +187,6 @@ main h1 {
 }
 
 .contact button:hover{
-	color: #A32CC4;
 	cursor: pointer;
 	transform: scale(1.2);
 }
@@ -329,11 +328,7 @@ footer img{
 			grid-template-rows: 1fr 1fr 1fr 1fr ;
 			grid-template-columns:1fr;
 			} 
-	.portfoliobtn {
-	    margin-left: 36%;
-	    margin-right: 50%;
-	    display: inline;
-	}
+	
 	.portfoliosite{
 		max-height: 500px;
 		    max-width: 350px;
@@ -345,7 +340,7 @@ footer img{
 	
 	}
 }
-@media only screen and (max-width:400px){
+@media only screen and (max-width:500px){
 	.nav-links{
 		display:grid;
 		grid-template-columns: 1fr;
@@ -358,11 +353,7 @@ footer img{
 		border-bottom: 1px solid #fff;
 		margin-bottom: 20px;
 	}
-	.portfoliobtn {
-	    margin-left: 28%;
-	    margin-right: 50%;
-	    display: inline;
-	}
+	
 	.portfoliosite{
 		max-height: 500px;
 		    max-width: 350px;
@@ -374,11 +365,11 @@ footer img{
 	
 	}
 	.contact button {
-    border: solid 2px;
+    border: solid 2px #A32CC4;
     border-radius: 8px;
     padding: none;
     background: transparent;
-    color: #A32CC4;
+    color: #fff;
     font-size: 18px;
     font-weight: 500;
     height: 50px;
@@ -390,10 +381,6 @@ footer img{
 }
 
 @media only screen and (max-width: 300px){
-	.portfoliobtn {
-	    margin-left: 18%;
-	    margin-right: 50%;
-	    display: inline;
-	}
+	
 		
 }
