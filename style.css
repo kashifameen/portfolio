@@ -30,13 +30,18 @@ nav {
 	font-weight: 600;
 	color: #fff;
 }
-a {
+a  {
     color: #fff;
     cursor: pointer;
     text-decoration: none;
 }
+a .btncolor {
+	color:#A32CC4;
+}
 
-
+a:hover{
+	color: #A32CC4;
+}
 
 
 .nav-links a:hover{
@@ -44,9 +49,10 @@ a {
 }
 
 .homepage{
-	padding-top:100px;
+	padding-top:150px;
 	display: grid;
 	grid-template-columns: 50% 50%;
+	height: 900px;
 	
 }
 
@@ -55,11 +61,10 @@ a {
 }
 
 .homepage button{
-	border: 2px solid #A32CC4;
-	border-radius: 8px;
+	border: none;
 	padding: none;
 	background: transparent;
-	color: #A32CC4;
+	color: #fff;
 	font-size: 23px;
 	font-weight: 500;
 	margin-top: 110px
@@ -72,6 +77,7 @@ a {
 	margin-left: 25px;
 }
 
+
 .firstimage {
 	max-height: 500px;
 	max-width: 350px;
@@ -79,14 +85,14 @@ a {
 	padding: none;
 }
 
-main .mainpara{ 
+ .mainpara{ 
 	text-align:center;
-	padding-top: 45px;
-}
-main h1 {
-	text-align: center;
+	padding-top: 50px;
 }
 
+#learnmore{
+	height: 1000px;
+}
 .skills {
 	display:grid;
 	grid-template-columns: 1fr 1fr;
@@ -129,7 +135,7 @@ main h1 {
 	
 }
 .portfoliobtn button{
-	border: solid 2px #A32CC4;
+	border: none;
 	border-radius: 8px;
 	padding: none;
 	background: transparent;
@@ -141,7 +147,8 @@ main h1 {
 }
 .portfoliobtn button:hover {
 	cursor: pointer;
-	transform: scale(1.2)
+	transform: scale(1.2);
+	color: #A32CC4;
 	
 }
 .portfoliosite{
@@ -157,6 +164,7 @@ main h1 {
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
 	grid-template-columns: 60% 40%;
+	padding-top: 25px;
 }
 .container div {
 	border-bottom: 0.5px solid #fff;
@@ -168,13 +176,12 @@ main h1 {
 }
 .contact {
 	text-align: center;
-	margin-top: 50px;
 	display: flex;
 	justify-content: center;
 }
 
 .contact button{
-	border: solid 2px #A32CC4;
+	border: none;
 	border-radius: 8px;
 	padding: none;
 	background: transparent;
@@ -189,20 +196,24 @@ main h1 {
 .contact button:hover{
 	cursor: pointer;
 	transform: scale(1.2);
+	color: #A32CC4;
 }
 
-.btncolor{
-	color: #fff;
-}
+
 
 .contact {
 	text-align: center;
 	font-size: 45px;
 }
+#contactform{
+	display: flex;
+	justify-content: ;
+}
 .contactform{
 	display: block;
 	background: black;
 	color: white;
+	justify-content: center;
 	
 }
 .contactform form {
@@ -236,7 +247,7 @@ label { display:block }
 	height: 200px;
 }
 .contactform button{
-	border: solid 2px #A32CC4;
+	border: none;
 	border-radius: 8px;
 	padding: none;
 	background: transparent;
@@ -244,19 +255,23 @@ label { display:block }
 	font-size: 24px;
 	font-weight: 500;
 	height:50px;
-	margin-left: 45%;
+	width: 100%;
+	margin-left:auto;
+	margin-right: auto;
 }
 
 .contactform button:hover{
 	transform:scale(1.2);
 	margin-top: 10px;
-	
+	color:#A32CC4;
 }
 
 footer {
 	padding-top: 50px;
 	
+	
 }
+
 
 footer img{
 	height: 40px;
@@ -339,6 +354,8 @@ footer img{
 		    margin-left: 157px;
 	
 	}
+	.contact button:hover{
+		transform: scale(1.0);
 }
 @media only screen and (max-width:500px){
 	.nav-links{
@@ -364,17 +381,7 @@ footer img{
 		    margin-left: 48px;
 	
 	}
-	.contact button {
-    border: solid 2px #A32CC4;
-    border-radius: 8px;
-    padding: none;
-    background: transparent;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    height: 50px;
-    margin-bottom: 100px;
-	}
+	
 	.contact button:hover{
 		transform: scale(1.0);
 	}
