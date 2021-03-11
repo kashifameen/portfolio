@@ -54,14 +54,12 @@ a:hover{
 	color: #FF00FF;
 }
 
-
 .homepage{
 	padding-top:150px;
 	display: grid;
 	grid-template-columns: 50% 50%;
 	height: 900px;
 	padding-left: 10px;
-	
 	
 }
 
@@ -87,7 +85,6 @@ a:hover{
 	margin-left: 20px;
 	
 }
-
 
 .firstimage {
 	max-height: 500px;
@@ -200,8 +197,7 @@ a:hover{
 	font-size: 1.5rem;
 	font-weight: 500;
 	height:50px;
-	margin-bottom: 100px;
-	
+	margin-bottom: 100px;	
 }
 
 .contact button:hover{
@@ -209,8 +205,6 @@ a:hover{
 	transform: scale(1.2);
 	color: #FF00FF;
 }
-
-
 
 .contact {
 	text-align: center;
@@ -244,8 +238,7 @@ label { display:block }
 	background: transparent;
 	color: #fff;
 	padding-top: 5px;
-	
-	
+
 }
 
 .contactform textarea {
@@ -278,14 +271,11 @@ label { display:block }
 
 footer {
 	padding-top: 50px;
-	
 }
 
 footer img{
 	height: 40px;
 	width: 40px;
-	
-	
 }
 .facebook{
 	margin: 10px 10px;
@@ -303,18 +293,15 @@ footer img{
 .twitter:hover{
 	border: 1px solid #fff;
 	transform: scale(1.2);
-
 }
 
 .linkedin{
-	margin: 10px 10px;
-	
+	margin: 10px 10px;	
 }
 .linkedin:hover{
 	border: 1px solid #fff;
 	border-radius: 4px;
-	transform: scale(1.2);
-	
+	transform: scale(1.2);	
 }
 .instagram{
 	margin: 10px 10px;
@@ -326,8 +313,6 @@ footer img{
 }
 
 @media only screen and (max-width:600px){
-	
-	
 	.homepage{
 		grid-template-columns: 1fr;
 	}
@@ -340,13 +325,10 @@ footer img{
 	.skills{
 	display: grid;
 	grid-template-columns: 1fr;
-
 	column-rule-width: 4px;
 	border-radius: 40px;
 	text-align: center;
 	margin-bottom: 50px;
-    
-	
 	}
 	.skills .html{
 		padding-bottom: 20px;
@@ -359,7 +341,6 @@ footer img{
 			grid-template-rows: 1fr 1fr 1fr 1fr ;
 			grid-template-columns:1fr;
 			} 
-	
 	.portfoliosite{
 		max-height: 500px;
 	    max-width: 100%;
@@ -380,7 +361,6 @@ footer img{
 		display:grid;
 		grid-template-columns: 1fr;
 	}
-	
 	.homepage{
 		grid-template-columns: 1fr;
 	}
